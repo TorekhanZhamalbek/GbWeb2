@@ -772,3 +772,117 @@
     line-height: 17px;
     color: #000000;
 }
+.registration{
+    height: 675px;
+}
+.registration-main{
+    display: flex;
+    padding-top: 64px;
+    padding-bottom: 98px;
+}
+.reg-field{
+    width: 360px;
+}
+.reg-field p{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #222222;
+}
+.reg-field span{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 13px;
+    color: #000000;
+}
+.reg-field img{
+    display: inline;
+}
+.reg-input{
+    margin-top: 21px;
+    width: 360px;
+    height: 45px;
+}
+.reg-radio{
+    border: 1px solid #A4A4A4;
+    margin-top: 31.5px;
+    margin-bottom: 33px;
+}
+.reg-radio:hover{
+    transform: scale(3,3);
+    transition: 0.5s;
+}
+.reg-pass-text{
+    margin-top: 15px;
+    width: 360px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    color: #B1B1B1;
+}
+.reg-field button{
+    margin-top: 55px;
+    width: 167px;
+    height: 50px;
+    background: #F16D7F;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    border-style: none;
+}
+.reg-field button:hover{
+    -moz-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+    transition: 0.5s;
+}
+.reg-field img{
+    margin-left: 20px;
+}
+.reg-info{
+    width: 652px;
+    height:334px;
+    margin-left: 128.51px;
+}
+.reg-info h1{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    margin-bottom: 22px;
+}
+.reg-info p{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    margin-bottom: 21px;
+}
+.reg-info ul{
+    margin-left: 27px;
+}
+.reg-info li{
+    list-style-image: url(img/list-img.svg);
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    margin-bottom: 16px;
+}
